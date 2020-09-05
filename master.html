@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Bingo! - Spillmaster</title>
+
+    </head>
+    <body onload="list()">
+        <div class="content">
+            <div class="column">
+                <h1 id="pickedNumber">!</h1>
+                <button class="button" onclick="pickNumber()">Trekk et nummer</button>
+            </div>
+            <div class="column">
+                <table id="listOfNumbers">
+                    <tr>
+                        <th>B</th>
+                        <th>I</th>
+                        <th>N</th>
+                        <th>G</th>
+                        <th>O</th>
+                    </tr>
+                </table>
+                <button class="button" onclick="reload()">Start på nytt</button>
+            </div>
+        </div>
+
+        
+        <script src="script2.js"></script>
+    </body>
+</html>
